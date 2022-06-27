@@ -5,7 +5,11 @@ import { Component } from "@angular/core";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"],
 })
-export class AppComponent {}
+export class AppComponent {
+  constructor() {
+    console.log("constructor działa");
+  }
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
